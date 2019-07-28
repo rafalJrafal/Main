@@ -1,0 +1,6 @@
+[submodule "SystemCalls"]
+	path = SystemCalls
+	url = https://github.com/rafalJrafal/SystemCalls.git
+[submodule "LogSystem"]
+	path = LogSystem
+	url = https://github.com/rafalJrafal/LogSystem.git
