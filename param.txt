@@ -1,0 +1,3 @@
+int exampleIntValue 3
+str exampleStringValue ala ma kota
+int secondExampleIntValue 123
