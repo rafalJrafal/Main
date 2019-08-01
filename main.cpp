@@ -11,8 +11,8 @@ int main(int argc, char** argv) {
 	
 	Parameter::Parameter p("param.txt");
 	p.readParameters();
-	ParemeterFileData<string> * param = static_cast<ParemeterFileData<string> *>(p.getValue("exampleStringValue"));
 	
-	printf("----> %s <----\n", param->getValue().c_str());
+	int x = p.getVal<int>("exampleIntValue");
+	printf("----> %d <----\n", x);
 	return 0;
 }
