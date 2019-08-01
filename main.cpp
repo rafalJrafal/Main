@@ -10,5 +10,6 @@ int main(int argc, char** argv) {
 	
 	Parameter::Parameter p("param.txt");
 	p.readParameters();
+	p.getValue("exampleStringValue");
 	return 0;
 }
