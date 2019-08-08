@@ -1,1 +1,13 @@
-
+2019-08-08.16:36:49	DEFAULT			System logger started on file ParameterReadLog.txt
+2019-08-08.16:36:49	DEFAULT			Logging data to param.txt
+2019-08-08.16:36:49	DEFAULT			Reading parameters from param.txt
+2019-08-08.16:36:49	DEFAULT			Parsing line int exampleIntValue 3
+2019-08-08.16:36:49	DEFAULT			Extracting parameters type = int name = exampleIntValue value = 3
+2019-08-08.16:36:49	DEFAULT			Value added 3
+2019-08-08.16:36:49	DEFAULT			Parsing line str exampleStringValue ala ma kota
+2019-08-08.16:36:49	DEFAULT			Extracting parameters type = str name = exampleStringValue value = ala ma kota
+2019-08-08.16:36:49	DEFAULT			Value added ala ma kota
+2019-08-08.16:36:49	DEFAULT			Parsing line int secondExampleIntValue 123
+2019-08-08.16:36:49	DEFAULT			Extracting parameters type = int name = secondExampleIntValue value = 123
+2019-08-08.16:36:49	DEFAULT			Value added 123
+2019-08-08.16:36:49	DEFAULT			Extracted exampleIntValue parameter

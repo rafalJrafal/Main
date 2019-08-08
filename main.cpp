@@ -16,10 +16,10 @@ int main(int argc, char** argv) {
 	int x = p.getVal<int>("exampleIntValue");
 	printf("----> %d <----\n", x);
 	
-	OperatorTest::ClassX a, b;
+	OperatorTest::ClassX a, b, c, d, e, f, g, h;
 	a = 3;
-	
-	//a = b;
+	b = a;
+	c = a + b;
 	
 	return 0;
 }
