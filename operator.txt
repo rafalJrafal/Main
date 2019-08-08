@@ -1,0 +1,10 @@
+2019-08-08.14:36:57	DEFAULT			System logger started on file operator.txt
+2019-08-08.14:36:57	DEFAULT			Constructor BaseClass this - 000000000078fdf0
+2019-08-08.14:36:57	DEFAULT			Constructor ClassX this - 000000000078fdf0
+2019-08-08.14:36:57	DEFAULT			Constructor BaseClass this - 000000000078fde0
+2019-08-08.14:36:57	DEFAULT			Constructor ClassX this - 000000000078fde0
+2019-08-08.14:36:57	DEFAULT			Operator = (int) value = 3
+2019-08-08.14:36:57	DEFAULT			Destructor ClassX this - 000000000078fde0
+2019-08-08.14:36:57	DEFAULT			Destructor BaseClass this - 000000000078fde0
+2019-08-08.14:36:57	DEFAULT			Destructor ClassX this - 000000000078fdf0
+2019-08-08.14:36:57	DEFAULT			Destructor BaseClass this - 000000000078fdf0

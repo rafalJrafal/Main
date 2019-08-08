@@ -1,12 +1,13 @@
-2019-08-01.20:36:47	DEFAULT			System logger started on default file log.txt
-2019-08-01.20:36:47	DEFAULT			Logging data to sss
-2019-08-01.20:36:47	DEFAULT			Reading parameters from param.txt
-2019-08-01.20:36:47	DEFAULT			Parsing line int exampleIntValue 3
-2019-08-01.20:36:47	DEFAULT			Extracting parameters type = int name = exampleIntValue value = 3
-2019-08-01.20:36:47	DEFAULT			Value added 3
-2019-08-01.20:36:47	DEFAULT			Parsing line str exampleStringValue ala ma kota
-2019-08-01.20:36:47	DEFAULT			Extracting parameters type = str name = exampleStringValue value = ala ma kota
-2019-08-01.20:36:47	DEFAULT			Value added ala ma kota
-2019-08-01.20:36:47	DEFAULT			Parsing line int secondExampleIntValue 123
-2019-08-01.20:36:47	DEFAULT			Extracting parameters type = int name = secondExampleIntValue value = 123
-2019-08-01.20:36:47	DEFAULT			Value added 123
+2019-08-08.14:36:57	DEFAULT			System logger started on file ParameterReadLog.txt
+2019-08-08.14:36:57	DEFAULT			Logging data to param.txt
+2019-08-08.14:36:57	DEFAULT			Reading parameters from param.txt
+2019-08-08.14:36:57	DEFAULT			Parsing line int exampleIntValue 3
+2019-08-08.14:36:57	DEFAULT			Extracting parameters type = int name = exampleIntValue value = 3
+2019-08-08.14:36:57	DEFAULT			Value added 3
+2019-08-08.14:36:57	DEFAULT			Parsing line str exampleStringValue ala ma kota
+2019-08-08.14:36:57	DEFAULT			Extracting parameters type = str name = exampleStringValue value = ala ma kota
+2019-08-08.14:36:57	DEFAULT			Value added ala ma kota
+2019-08-08.14:36:57	DEFAULT			Parsing line int secondExampleIntValue 123
+2019-08-08.14:36:57	DEFAULT			Extracting parameters type = int name = secondExampleIntValue value = 123
+2019-08-08.14:36:57	DEFAULT			Value added 123
+2019-08-08.14:36:57	DEFAULT			Extracted exampleIntValue parameter
