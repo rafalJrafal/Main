@@ -1,5 +1,7 @@
 #include <iostream>
 
+#include "SystemCalls/inc/Memory.h"
+
 #include "LogSystem/inc/LogSystem.h"
 #include "ParameterFile/inc/ParameterFile.h"
 #include "ParameterFile/inc/ParameterFileDataType.h"

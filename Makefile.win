@@ -4,8 +4,8 @@
 CPP      = g++.exe -D__DEBUG__
 CC       = gcc.exe -D__DEBUG__
 WINDRES  = windres.exe
-OBJ      = LogSystem/src/LogSystem.o ParameterFile/src/ParameterFile.o main.o LogSystem/src/LogSystemTag.o
-LINKOBJ  = LogSystem/src/LogSystem.o ParameterFile/src/ParameterFile.o main.o LogSystem/src/LogSystemTag.o
+OBJ      = LogSystem/src/LogSystem.o ParameterFile/src/ParameterFile.o main.o LogSystem/src/LogSystemTag.o SystemCalls/src/Memory.o SystemCalls/src/MemoryMap.o
+LINKOBJ  = LogSystem/src/LogSystem.o ParameterFile/src/ParameterFile.o main.o LogSystem/src/LogSystemTag.o SystemCalls/src/Memory.o SystemCalls/src/MemoryMap.o
 LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc -g3
 INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
 CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
@@ -35,3 +35,9 @@ main.o: main.cpp
 
 LogSystem/src/LogSystemTag.o: LogSystem/src/LogSystemTag.cpp
 	$(CPP) -c LogSystem/src/LogSystemTag.cpp -o LogSystem/src/LogSystemTag.o $(CXXFLAGS)
+
+SystemCalls/src/Memory.o: SystemCalls/src/Memory.cpp
+	$(CPP) -c SystemCalls/src/Memory.cpp -o SystemCalls/src/Memory.o $(CXXFLAGS)
+
+SystemCalls/src/MemoryMap.o: SystemCalls/src/MemoryMap.cpp
+	$(CPP) -c SystemCalls/src/MemoryMap.cpp -o SystemCalls/src/MemoryMap.o $(CXXFLAGS)
