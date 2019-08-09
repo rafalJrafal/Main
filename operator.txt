@@ -1,37 +1,37 @@
-2019-08-09.15:28:31	DEFAULT			System logger started on file operator.txt
-2019-08-09.15:28:31	DEFAULT			Constructor BaseClass this - 00000000007afdf0
-2019-08-09.15:28:31	DEFAULT			Constructor ClassX this - 00000000007afdf0
-2019-08-09.15:28:31	DEFAULT			Constructor BaseClass this - 00000000007afde0
-2019-08-09.15:28:31	DEFAULT			Constructor ClassX this - 00000000007afde0
-2019-08-09.15:28:31	DEFAULT			Constructor BaseClass this - 00000000007afdd0
-2019-08-09.15:28:31	DEFAULT			Constructor ClassX this - 00000000007afdd0
-2019-08-09.15:28:31	DEFAULT			Constructor BaseClass this - 00000000007afdc0
-2019-08-09.15:28:31	DEFAULT			Constructor ClassX this - 00000000007afdc0
-2019-08-09.15:28:31	DEFAULT			Constructor BaseClass this - 00000000007afdb0
-2019-08-09.15:28:31	DEFAULT			Constructor ClassX this - 00000000007afdb0
-2019-08-09.15:28:31	DEFAULT			Constructor BaseClass this - 00000000007afda0
-2019-08-09.15:28:31	DEFAULT			Constructor ClassX this - 00000000007afda0
-2019-08-09.15:28:31	DEFAULT			Constructor BaseClass this - 00000000007afd90
-2019-08-09.15:28:31	DEFAULT			Constructor ClassX this - 00000000007afd90
-2019-08-09.15:28:31	DEFAULT			Constructor BaseClass this - 00000000007afd80
-2019-08-09.15:28:31	DEFAULT			Constructor ClassX this - 00000000007afd80
-2019-08-09.15:28:31	DEFAULT			Operator = (int) for 00000000007afdf0 value = 3
-2019-08-09.15:28:31	DEFAULT			Operator = (ClassX) for 00000000007afde0 value = 3 from 00000000007afdf0
-2019-08-09.15:28:31	DEFAULT			Operator + ClassX for 00000000007afdf0
-2019-08-09.15:28:31	DEFAULT			Operator = (ClassX) for 00000000007afdd0 value = 6 from 00000000007afdf0
-2019-08-09.15:28:31	DEFAULT			Destructor ClassX this - 00000000007afd80
-2019-08-09.15:28:31	DEFAULT			Destructor BaseClass this - 00000000007afd80
-2019-08-09.15:28:31	DEFAULT			Destructor ClassX this - 00000000007afd90
-2019-08-09.15:28:31	DEFAULT			Destructor BaseClass this - 00000000007afd90
-2019-08-09.15:28:31	DEFAULT			Destructor ClassX this - 00000000007afda0
-2019-08-09.15:28:31	DEFAULT			Destructor BaseClass this - 00000000007afda0
-2019-08-09.15:28:31	DEFAULT			Destructor ClassX this - 00000000007afdb0
-2019-08-09.15:28:31	DEFAULT			Destructor BaseClass this - 00000000007afdb0
-2019-08-09.15:28:31	DEFAULT			Destructor ClassX this - 00000000007afdc0
-2019-08-09.15:28:31	DEFAULT			Destructor BaseClass this - 00000000007afdc0
-2019-08-09.15:28:31	DEFAULT			Destructor ClassX this - 00000000007afdd0
-2019-08-09.15:28:31	DEFAULT			Destructor BaseClass this - 00000000007afdd0
-2019-08-09.15:28:31	DEFAULT			Destructor ClassX this - 00000000007afde0
-2019-08-09.15:28:31	DEFAULT			Destructor BaseClass this - 00000000007afde0
-2019-08-09.15:28:31	DEFAULT			Destructor ClassX this - 00000000007afdf0
-2019-08-09.15:28:31	DEFAULT			Destructor BaseClass this - 00000000007afdf0
+2019-08-09.15:39:47	DEFAULT			System logger started on file operator.txt
+2019-08-09.15:39:47	DEFAULT			Constructor BaseClass this - 000000000079fdf0
+2019-08-09.15:39:47	DEFAULT			Constructor ClassX this - 000000000079fdf0
+2019-08-09.15:39:47	DEFAULT			Constructor BaseClass this - 000000000079fde0
+2019-08-09.15:39:47	DEFAULT			Constructor ClassX this - 000000000079fde0
+2019-08-09.15:39:47	DEFAULT			Constructor BaseClass this - 000000000079fdd0
+2019-08-09.15:39:47	DEFAULT			Constructor ClassX this - 000000000079fdd0
+2019-08-09.15:39:47	DEFAULT			Constructor BaseClass this - 000000000079fdc0
+2019-08-09.15:39:47	DEFAULT			Constructor ClassX this - 000000000079fdc0
+2019-08-09.15:39:47	DEFAULT			Constructor BaseClass this - 000000000079fdb0
+2019-08-09.15:39:47	DEFAULT			Constructor ClassX this - 000000000079fdb0
+2019-08-09.15:39:47	DEFAULT			Constructor BaseClass this - 000000000079fda0
+2019-08-09.15:39:47	DEFAULT			Constructor ClassX this - 000000000079fda0
+2019-08-09.15:39:47	DEFAULT			Constructor BaseClass this - 000000000079fd90
+2019-08-09.15:39:47	DEFAULT			Constructor ClassX this - 000000000079fd90
+2019-08-09.15:39:47	DEFAULT			Constructor BaseClass this - 000000000079fd80
+2019-08-09.15:39:47	DEFAULT			Constructor ClassX this - 000000000079fd80
+2019-08-09.15:39:47	DEFAULT			Operator = (int) for 000000000079fdf0 value = 3
+2019-08-09.15:39:47	DEFAULT			Operator = (ClassX) for 000000000079fde0 value = 3 from 000000000079fdf0
+2019-08-09.15:39:47	DEFAULT			Operator + ClassX for 000000000079fdf0
+2019-08-09.15:39:47	DEFAULT			Operator = (ClassX) for 000000000079fdd0 value = 6 from 000000000079fdf0
+2019-08-09.15:39:47	DEFAULT			Destructor ClassX this - 000000000079fd80
+2019-08-09.15:39:47	DEFAULT			Destructor BaseClass this - 000000000079fd80
+2019-08-09.15:39:47	DEFAULT			Destructor ClassX this - 000000000079fd90
+2019-08-09.15:39:47	DEFAULT			Destructor BaseClass this - 000000000079fd90
+2019-08-09.15:39:47	DEFAULT			Destructor ClassX this - 000000000079fda0
+2019-08-09.15:39:47	DEFAULT			Destructor BaseClass this - 000000000079fda0
+2019-08-09.15:39:47	DEFAULT			Destructor ClassX this - 000000000079fdb0
+2019-08-09.15:39:47	DEFAULT			Destructor BaseClass this - 000000000079fdb0
+2019-08-09.15:39:47	DEFAULT			Destructor ClassX this - 000000000079fdc0
+2019-08-09.15:39:47	DEFAULT			Destructor BaseClass this - 000000000079fdc0
+2019-08-09.15:39:47	DEFAULT			Destructor ClassX this - 000000000079fdd0
+2019-08-09.15:39:47	DEFAULT			Destructor BaseClass this - 000000000079fdd0
+2019-08-09.15:39:47	DEFAULT			Destructor ClassX this - 000000000079fde0
+2019-08-09.15:39:47	DEFAULT			Destructor BaseClass this - 000000000079fde0
+2019-08-09.15:39:47	DEFAULT			Destructor ClassX this - 000000000079fdf0
+2019-08-09.15:39:47	DEFAULT			Destructor BaseClass this - 000000000079fdf0
