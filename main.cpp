@@ -23,7 +23,6 @@ int main(int argc, char** argv) {
 	b = a;
 	c = a + b;
 	
-	LogSystem::LogSystem::memLog("aa");
-	
+
 	return 0;
 }
