@@ -4,3 +4,16 @@
 [submodule "LogSystem"]
 	path = LogSystem
 	url = https://github.com/rafalJrafal/LogSystem.git
+[submodule "ParameterFile"]
+	path = ParameterFile
+	url = https://github.com/rafalJrafal/ParameterFile.git
+[submodule "Operator"]
+	path = Operator
+	url = https://github.com/rafalJrafal/Operator.git
+[submodule "Static"]
+	path = Static
+	url = https://github.com/rafalJrafal/Static.git
+[submodule "PtrTo"]
+	path = PtrTo
+	url = https://github.com/rafalJrafal/Static.git
+
