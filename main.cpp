@@ -1,7 +1,7 @@
 #include <iostream>
 
 #include "SystemCalls/inc/Memory.h"
-
+#include "SystemCalls/inc/MemoryMap.h"
 #include "LogSystem/inc/LogSystem.h"
 #include "ParameterFile/inc/ParameterFile.h"
 #include "ParameterFile/inc/ParameterFileDataType.h"
@@ -23,6 +23,9 @@ int main(int argc, char** argv) {
 	b = a;
 	c = a + b;
 	
+	static MemoryMap & memoryMap = MemoryMap::instance();
+	memoryMap.printRemainingAllocations();
+	printf("----> %d <----\n", x);
 
 	return 0;
 }
