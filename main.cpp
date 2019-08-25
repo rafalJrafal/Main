@@ -36,15 +36,15 @@ int main(int argc, char** argv) {
 	
 	OperatorTest::ClassX a, b, c, d, e, f, g, h;
 	
-/*	OperatorTest::ClassX * a_p = new OperatorTest::ClassX();
+	OperatorTest::ClassX * a_p = new OperatorTest::ClassX();
 	//OperatorTest::ClassX * a2_p = new (10) OperatorTest::ClassX;
 	OperatorTest::ClassX * b_p = new OperatorTest::ClassX [2];
-	OperatorTest::ClassX * c_p = new OperatorTest::ClassX [3]; */
+	OperatorTest::ClassX * c_p = new OperatorTest::ClassX [3]; 
 	
-	//delete a_p;
+	delete a_p;
 	//delete a2_p;
-	//delete [] b_p;
-	//delete [] c_p;
+	delete [] b_p;
+	delete [] c_p;
 	
 	a = 3;
 	b = a;

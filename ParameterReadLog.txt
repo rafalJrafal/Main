@@ -1,3 +1,3 @@
-2019-08-22.21:51:58	DEFAULT			System logger started on file ParameterReadLog.txt
-2019-08-22.21:51:58	DEFAULT			Logging data to param.txt
-2019-08-22.21:51:58	DEFAULT			Extracted exampleIntValue parameter
+2019-08-25.11:41:57	DEFAULT			System logger started on file ParameterReadLog.txt
+2019-08-25.11:41:57	DEFAULT			Logging data to param.txt
+2019-08-25.11:41:57	DEFAULT			Extracted exampleIntValue parameter

@@ -1,2 +1,2 @@
-2019-08-22.21:51:58	DEFAULT			System logger started on file log.txt
-2019-08-22.21:51:58	DEFAULT			aaa
+2019-08-25.11:41:57	DEFAULT			System logger started on file log.txt
+2019-08-25.11:41:57	DEFAULT			aaa

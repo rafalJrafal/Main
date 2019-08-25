@@ -209,3 +209,297 @@ Number of remaining allocations = 3
 				Found deallocated memory at	ptr = 00000000001C1590
 				Found deallocated memory at	ptr = 00000000001C14E0
 				Found deallocated memory at	ptr = 00000000001C14B0
+MarkAlloc:		ptr = 0000000000A91B50		size = 4. main.cpp : 21
+	Allocated memory
+	Ptr = 0000000000A91B50,	size = 4, 	 isAllocated = 1. File: main.cpp : 21 All Size Used = 4
+	All size used = 4. Allocations = 1. Deallocations = 0
+Deallocated memory at	ptr = 0000000000A91B50. File main.cpp : 21
+	Deallocated memory size = 4
+	Allocated memory
+	Ptr = 0000000000A91B50,	size = 4, 	 isAllocated = 0. File: main.cpp : 21 All Size Used = 0
+	All size used = 0. Allocations = 1. Deallocations = 1
+MarkAlloc:		ptr = 0000000000A95E80		size = 1200. main.cpp : 24
+	Allocated memory
+	Ptr = 0000000000A91B50,	size = 4, 	 isAllocated = 0. File: main.cpp : 21 All Size Used = 0
+	Ptr = 0000000000A95E80,	size = 1200, 	 isAllocated = 1. File: main.cpp : 24 All Size Used = 1200
+	All size used = 1200. Allocations = 2. Deallocations = 1
+Deallocated memory at	ptr = 0000000000A95E80. File main.cpp : 24
+	Deallocated memory size = 1200
+	Allocated memory
+	Ptr = 0000000000A91B50,	size = 4, 	 isAllocated = 0. File: main.cpp : 21 All Size Used = 0
+	Ptr = 0000000000A95E80,	size = 1200, 	 isAllocated = 0. File: main.cpp : 24 All Size Used = 0
+	All size used = 0. Allocations = 2. Deallocations = 2
+MarkAlloc:		ptr = 0000000000A95EB0		size = 480. LogSystem/src/LogSystem.cpp : 21
+	Allocated memory
+	Ptr = 0000000000A91B50,	size = 4, 	 isAllocated = 0. File: main.cpp : 21 All Size Used = 0
+	Ptr = 0000000000A95E80,	size = 1200, 	 isAllocated = 0. File: main.cpp : 24 All Size Used = 0
+	Ptr = 0000000000A95EB0,	size = 480, 	 isAllocated = 1. File: LogSystem/src/LogSystem.cpp : 21 All Size Used = 480
+	All size used = 480. Allocations = 3. Deallocations = 2
+				Found deallocated memory at	ptr = 0000000000A96400
+				Found deallocated memory at	ptr = 0000000000A96610
+				Found deallocated memory at	ptr = 0000000000A967C0
+				Found deallocated memory at	ptr = 0000000000A964F0
+MarkAlloc:		ptr = 0000000000A96E00		size = 480. LogSystem/src/LogSystem.cpp : 21
+	Allocated memory
+	Ptr = 0000000000A91B50,	size = 4, 	 isAllocated = 0. File: main.cpp : 21 All Size Used = 0
+	Ptr = 0000000000A95E80,	size = 1200, 	 isAllocated = 0. File: main.cpp : 24 All Size Used = 0
+	Ptr = 0000000000A95EB0,	size = 480, 	 isAllocated = 1. File: LogSystem/src/LogSystem.cpp : 21 All Size Used = 480
+	Ptr = 0000000000A96E00,	size = 480, 	 isAllocated = 1. File: LogSystem/src/LogSystem.cpp : 21 All Size Used = 960
+	All size used = 960. Allocations = 4. Deallocations = 2
+				Found deallocated memory at	ptr = 0000000000A965B0
+MarkAlloc:		ptr = 0000000000A972B0		size = 480. LogSystem/src/LogSystem.cpp : 21
+	Allocated memory
+	Ptr = 0000000000A91B50,	size = 4, 	 isAllocated = 0. File: main.cpp : 21 All Size Used = 0
+	Ptr = 0000000000A95E80,	size = 1200, 	 isAllocated = 0. File: main.cpp : 24 All Size Used = 0
+	Ptr = 0000000000A95EB0,	size = 480, 	 isAllocated = 1. File: LogSystem/src/LogSystem.cpp : 21 All Size Used = 480
+	Ptr = 0000000000A96E00,	size = 480, 	 isAllocated = 1. File: LogSystem/src/LogSystem.cpp : 21 All Size Used = 960
+	Ptr = 0000000000A972B0,	size = 480, 	 isAllocated = 1. File: LogSystem/src/LogSystem.cpp : 21 All Size Used = 1440
+	All size used = 1440. Allocations = 5. Deallocations = 2
+				Found deallocated memory at	ptr = 0000000000A96700
+				Found deallocated memory at	ptr = 0000000000A96700
+				Found deallocated memory at	ptr = 0000000000A96550
+				Found deallocated memory at	ptr = 0000000000A964C0
+				Found deallocated memory at	ptr = 0000000000A96550
+				Found deallocated memory at	ptr = 0000000000A96700
+				Found deallocated memory at	ptr = 0000000000A96700
+				Found deallocated memory at	ptr = 0000000000A967C0
+				Found deallocated memory at	ptr = 0000000000A965B0
+				Found deallocated memory at	ptr = 0000000000A965B0
+				Found deallocated memory at	ptr = 0000000000A96700
+				Found deallocated memory at	ptr = 0000000000A967C0
+				Found deallocated memory at	ptr = 0000000000A96760
+				Found deallocated memory at	ptr = 0000000000A96700
+				Found deallocated memory at	ptr = 0000000000A967C0
+				Found deallocated memory at	ptr = 0000000000A96700
+				Found deallocated memory at	ptr = 0000000000A967C0
+				Found deallocated memory at	ptr = 0000000000A96730
+				Found deallocated memory at	ptr = 0000000000A96820
+				Found deallocated memory at	ptr = 0000000000A967C0
+				Found deallocated memory at	ptr = 0000000000A96550
+				Found deallocated memory at	ptr = 0000000000A96700
+				Found deallocated memory at	ptr = 0000000000A96700
+				Found deallocated memory at	ptr = 0000000000A966A0
+				Found deallocated memory at	ptr = 0000000000A96790
+				Found deallocated memory at	ptr = 0000000000A96D80
+				Found deallocated memory at	ptr = 0000000000A964F0
+				Found deallocated memory at	ptr = 0000000000A96D40
+
+==================================================
+
+Remaining allocations:
+		Ptr = 0000000000A95EB0,	size = 480,	isAllocated = 1 from file LogSystem/src/LogSystem.cpp : 21
+		Ptr = 0000000000A96E00,	size = 480,	isAllocated = 1 from file LogSystem/src/LogSystem.cpp : 21
+		Ptr = 0000000000A972B0,	size = 480,	isAllocated = 1 from file LogSystem/src/LogSystem.cpp : 21
+Number of remaining allocations = 3
+
+==================================================
+				Found deallocated memory at	ptr = 0000000000A96520
+				Found deallocated memory at	ptr = 0000000000A96D00
+				Found deallocated memory at	ptr = 0000000000A966D0
+				Found deallocated memory at	ptr = 0000000000A96CC0
+				Found deallocated memory at	ptr = 0000000000A965E0
+				Found deallocated memory at	ptr = 0000000000A96C80
+				Found deallocated memory at	ptr = 0000000000A96670
+				Found deallocated memory at	ptr = 0000000000A96430
+				Found deallocated memory at	ptr = 0000000000A91B50
+				Found deallocated memory at	ptr = 0000000000A91BD0
+				Found deallocated memory at	ptr = 0000000000A96400
+				Found deallocated memory at	ptr = 0000000000A97290
+				Found deallocated memory at	ptr = 0000000000A97740
+				Found deallocated memory at	ptr = 0000000000A97760
+				Found deallocated memory at	ptr = 0000000000A91AF0
+				Found deallocated memory at	ptr = 0000000000A91AC0
+				Found deallocated memory at	ptr = 0000000000A91A90
+				Found deallocated memory at	ptr = 0000000000A915C0
+				Found deallocated memory at	ptr = 0000000000A91590
+				Found deallocated memory at	ptr = 0000000000A914E0
+				Found deallocated memory at	ptr = 0000000000A914B0
+MarkAlloc:		ptr = 0000000000951B50		size = 4. main.cpp : 21
+	Allocated memory
+	Ptr = 0000000000951B50,	size = 4, 	 isAllocated = 1. File: main.cpp : 21 All Size Used = 4
+	All size used = 4. Allocations = 1. Deallocations = 0
+Deallocated memory at	ptr = 0000000000951B50. File main.cpp : 21
+	Deallocated memory size = 4
+	Allocated memory
+	Ptr = 0000000000951B50,	size = 4, 	 isAllocated = 0. File: main.cpp : 21 All Size Used = 0
+	All size used = 0. Allocations = 1. Deallocations = 1
+MarkAlloc:		ptr = 0000000000955E80		size = 1200. main.cpp : 24
+	Allocated memory
+	Ptr = 0000000000951B50,	size = 4, 	 isAllocated = 0. File: main.cpp : 21 All Size Used = 0
+	Ptr = 0000000000955E80,	size = 1200, 	 isAllocated = 1. File: main.cpp : 24 All Size Used = 1200
+	All size used = 1200. Allocations = 2. Deallocations = 1
+Deallocated memory at	ptr = 0000000000955E80. File main.cpp : 24
+	Deallocated memory size = 1200
+	Allocated memory
+	Ptr = 0000000000951B50,	size = 4, 	 isAllocated = 0. File: main.cpp : 21 All Size Used = 0
+	Ptr = 0000000000955E80,	size = 1200, 	 isAllocated = 0. File: main.cpp : 24 All Size Used = 0
+	All size used = 0. Allocations = 2. Deallocations = 2
+MarkAlloc:		ptr = 0000000000955EB0		size = 480. LogSystem/src/LogSystem.cpp : 21
+	Allocated memory
+	Ptr = 0000000000951B50,	size = 4, 	 isAllocated = 0. File: main.cpp : 21 All Size Used = 0
+	Ptr = 0000000000955E80,	size = 1200, 	 isAllocated = 0. File: main.cpp : 24 All Size Used = 0
+	Ptr = 0000000000955EB0,	size = 480, 	 isAllocated = 1. File: LogSystem/src/LogSystem.cpp : 21 All Size Used = 480
+	All size used = 480. Allocations = 3. Deallocations = 2
+				Found deallocated memory at	ptr = 0000000000956400
+				Found deallocated memory at	ptr = 0000000000956730
+				Found deallocated memory at	ptr = 0000000000956640
+				Found deallocated memory at	ptr = 0000000000956640
+MarkAlloc:		ptr = 0000000000956E00		size = 480. LogSystem/src/LogSystem.cpp : 21
+	Allocated memory
+	Ptr = 0000000000951B50,	size = 4, 	 isAllocated = 0. File: main.cpp : 21 All Size Used = 0
+	Ptr = 0000000000955E80,	size = 1200, 	 isAllocated = 0. File: main.cpp : 24 All Size Used = 0
+	Ptr = 0000000000955EB0,	size = 480, 	 isAllocated = 1. File: LogSystem/src/LogSystem.cpp : 21 All Size Used = 480
+	Ptr = 0000000000956E00,	size = 480, 	 isAllocated = 1. File: LogSystem/src/LogSystem.cpp : 21 All Size Used = 960
+	All size used = 960. Allocations = 4. Deallocations = 2
+				Found deallocated memory at	ptr = 0000000000956670
+MarkAlloc:		ptr = 00000000009572B0		size = 480. LogSystem/src/LogSystem.cpp : 21
+	Allocated memory
+	Ptr = 0000000000951B50,	size = 4, 	 isAllocated = 0. File: main.cpp : 21 All Size Used = 0
+	Ptr = 0000000000955E80,	size = 1200, 	 isAllocated = 0. File: main.cpp : 24 All Size Used = 0
+	Ptr = 0000000000955EB0,	size = 480, 	 isAllocated = 1. File: LogSystem/src/LogSystem.cpp : 21 All Size Used = 480
+	Ptr = 0000000000956E00,	size = 480, 	 isAllocated = 1. File: LogSystem/src/LogSystem.cpp : 21 All Size Used = 960
+	Ptr = 00000000009572B0,	size = 480, 	 isAllocated = 1. File: LogSystem/src/LogSystem.cpp : 21 All Size Used = 1440
+	All size used = 1440. Allocations = 5. Deallocations = 2
+				Found deallocated memory at	ptr = 0000000000956760
+				Found deallocated memory at	ptr = 00000000009564C0
+				Found deallocated memory at	ptr = 0000000000956550
+				Found deallocated memory at	ptr = 0000000000956730
+				Found deallocated memory at	ptr = 0000000000956550
+				Found deallocated memory at	ptr = 0000000000956670
+				Found deallocated memory at	ptr = 0000000000956670
+MarkAlloc:		ptr = 0000000000957780		size = 16. main.cpp : 39
+	Allocated memory
+	Ptr = 0000000000951B50,	size = 4, 	 isAllocated = 0. File: main.cpp : 21 All Size Used = 0
+	Ptr = 0000000000955E80,	size = 1200, 	 isAllocated = 0. File: main.cpp : 24 All Size Used = 0
+	Ptr = 0000000000955EB0,	size = 480, 	 isAllocated = 1. File: LogSystem/src/LogSystem.cpp : 21 All Size Used = 480
+	Ptr = 0000000000956E00,	size = 480, 	 isAllocated = 1. File: LogSystem/src/LogSystem.cpp : 21 All Size Used = 960
+	Ptr = 00000000009572B0,	size = 480, 	 isAllocated = 1. File: LogSystem/src/LogSystem.cpp : 21 All Size Used = 1440
+	Ptr = 0000000000957780,	size = 16, 	 isAllocated = 1. File: main.cpp : 39 All Size Used = 1456
+	All size used = 1456. Allocations = 6. Deallocations = 2
+				Found deallocated memory at	ptr = 0000000000956730
+MarkAlloc:		ptr = 0000000000956550		size = 40. main.cpp : 41
+	Allocated memory
+	Ptr = 0000000000951B50,	size = 4, 	 isAllocated = 0. File: main.cpp : 21 All Size Used = 0
+	Ptr = 0000000000955E80,	size = 1200, 	 isAllocated = 0. File: main.cpp : 24 All Size Used = 0
+	Ptr = 0000000000955EB0,	size = 480, 	 isAllocated = 1. File: LogSystem/src/LogSystem.cpp : 21 All Size Used = 480
+	Ptr = 0000000000956E00,	size = 480, 	 isAllocated = 1. File: LogSystem/src/LogSystem.cpp : 21 All Size Used = 960
+	Ptr = 00000000009572B0,	size = 480, 	 isAllocated = 1. File: LogSystem/src/LogSystem.cpp : 21 All Size Used = 1440
+	Ptr = 0000000000957780,	size = 16, 	 isAllocated = 1. File: main.cpp : 39 All Size Used = 1456
+	Ptr = 0000000000956550,	size = 40, 	 isAllocated = 1. File: main.cpp : 41 All Size Used = 1496
+	All size used = 1496. Allocations = 7. Deallocations = 2
+				Found deallocated memory at	ptr = 0000000000956670
+				Found deallocated memory at	ptr = 0000000000956670
+MarkAlloc:		ptr = 00000000009578C0		size = 56. main.cpp : 42
+	Allocated memory
+	Ptr = 0000000000951B50,	size = 4, 	 isAllocated = 0. File: main.cpp : 21 All Size Used = 0
+	Ptr = 0000000000955E80,	size = 1200, 	 isAllocated = 0. File: main.cpp : 24 All Size Used = 0
+	Ptr = 0000000000955EB0,	size = 480, 	 isAllocated = 1. File: LogSystem/src/LogSystem.cpp : 21 All Size Used = 480
+	Ptr = 0000000000956E00,	size = 480, 	 isAllocated = 1. File: LogSystem/src/LogSystem.cpp : 21 All Size Used = 960
+	Ptr = 00000000009572B0,	size = 480, 	 isAllocated = 1. File: LogSystem/src/LogSystem.cpp : 21 All Size Used = 1440
+	Ptr = 0000000000957780,	size = 16, 	 isAllocated = 1. File: main.cpp : 39 All Size Used = 1456
+	Ptr = 0000000000956550,	size = 40, 	 isAllocated = 1. File: main.cpp : 41 All Size Used = 1496
+	Ptr = 00000000009578C0,	size = 56, 	 isAllocated = 1. File: main.cpp : 42 All Size Used = 1552
+	All size used = 1552. Allocations = 8. Deallocations = 2
+				Found deallocated memory at	ptr = 00000000009567F0
+				Found deallocated memory at	ptr = 0000000000956670
+				Found deallocated memory at	ptr = 0000000000956730
+				Found deallocated memory at	ptr = 0000000000956670
+				Found deallocated memory at	ptr = 00000000009564C0
+Deallocated memory at	ptr = 0000000000957780. File main.cpp : 39
+	Deallocated memory size = 16
+	Allocated memory
+	Ptr = 0000000000951B50,	size = 4, 	 isAllocated = 0. File: main.cpp : 21 All Size Used = 0
+	Ptr = 0000000000955E80,	size = 1200, 	 isAllocated = 0. File: main.cpp : 24 All Size Used = 0
+	Ptr = 0000000000955EB0,	size = 480, 	 isAllocated = 1. File: LogSystem/src/LogSystem.cpp : 21 All Size Used = 480
+	Ptr = 0000000000956E00,	size = 480, 	 isAllocated = 1. File: LogSystem/src/LogSystem.cpp : 21 All Size Used = 960
+	Ptr = 00000000009572B0,	size = 480, 	 isAllocated = 1. File: LogSystem/src/LogSystem.cpp : 21 All Size Used = 1440
+	Ptr = 0000000000957780,	size = 16, 	 isAllocated = 0. File: main.cpp : 39 All Size Used = 1440
+	Ptr = 0000000000956550,	size = 40, 	 isAllocated = 1. File: main.cpp : 41 All Size Used = 1480
+	Ptr = 00000000009578C0,	size = 56, 	 isAllocated = 1. File: main.cpp : 42 All Size Used = 1536
+	All size used = 1536. Allocations = 8. Deallocations = 3
+				Found deallocated memory at	ptr = 0000000000956670
+				Found deallocated memory at	ptr = 0000000000956670
+				Found deallocated memory at	ptr = 0000000000956670
+				Found deallocated memory at	ptr = 0000000000956790
+Deallocated memory at	ptr = 0000000000956550. File main.cpp : 41
+	Deallocated memory size = 40
+	Allocated memory
+	Ptr = 0000000000951B50,	size = 4, 	 isAllocated = 0. File: main.cpp : 21 All Size Used = 0
+	Ptr = 0000000000955E80,	size = 1200, 	 isAllocated = 0. File: main.cpp : 24 All Size Used = 0
+	Ptr = 0000000000955EB0,	size = 480, 	 isAllocated = 1. File: LogSystem/src/LogSystem.cpp : 21 All Size Used = 480
+	Ptr = 0000000000956E00,	size = 480, 	 isAllocated = 1. File: LogSystem/src/LogSystem.cpp : 21 All Size Used = 960
+	Ptr = 00000000009572B0,	size = 480, 	 isAllocated = 1. File: LogSystem/src/LogSystem.cpp : 21 All Size Used = 1440
+	Ptr = 0000000000957780,	size = 16, 	 isAllocated = 0. File: main.cpp : 39 All Size Used = 1440
+	Ptr = 0000000000956550,	size = 40, 	 isAllocated = 0. File: main.cpp : 41 All Size Used = 1440
+	Ptr = 00000000009578C0,	size = 56, 	 isAllocated = 1. File: main.cpp : 42 All Size Used = 1496
+	All size used = 1496. Allocations = 8. Deallocations = 4
+				Found deallocated memory at	ptr = 0000000000956790
+				Found deallocated memory at	ptr = 0000000000956670
+				Found deallocated memory at	ptr = 0000000000956670
+				Found deallocated memory at	ptr = 0000000000956760
+				Found deallocated memory at	ptr = 0000000000956670
+				Found deallocated memory at	ptr = 0000000000956730
+Deallocated memory at	ptr = 00000000009578C0. File main.cpp : 42
+	Deallocated memory size = 56
+	Allocated memory
+	Ptr = 0000000000951B50,	size = 4, 	 isAllocated = 0. File: main.cpp : 21 All Size Used = 0
+	Ptr = 0000000000955E80,	size = 1200, 	 isAllocated = 0. File: main.cpp : 24 All Size Used = 0
+	Ptr = 0000000000955EB0,	size = 480, 	 isAllocated = 1. File: LogSystem/src/LogSystem.cpp : 21 All Size Used = 480
+	Ptr = 0000000000956E00,	size = 480, 	 isAllocated = 1. File: LogSystem/src/LogSystem.cpp : 21 All Size Used = 960
+	Ptr = 00000000009572B0,	size = 480, 	 isAllocated = 1. File: LogSystem/src/LogSystem.cpp : 21 All Size Used = 1440
+	Ptr = 0000000000957780,	size = 16, 	 isAllocated = 0. File: main.cpp : 39 All Size Used = 1440
+	Ptr = 0000000000956550,	size = 40, 	 isAllocated = 0. File: main.cpp : 41 All Size Used = 1440
+	Ptr = 00000000009578C0,	size = 56, 	 isAllocated = 0. File: main.cpp : 42 All Size Used = 1440
+	All size used = 1440. Allocations = 8. Deallocations = 5
+				Found deallocated memory at	ptr = 00000000009564C0
+				Found deallocated memory at	ptr = 0000000000956730
+				Found deallocated memory at	ptr = 0000000000956790
+				Found deallocated memory at	ptr = 0000000000956670
+				Found deallocated memory at	ptr = 00000000009564C0
+				Found deallocated memory at	ptr = 0000000000956790
+				Found deallocated memory at	ptr = 0000000000956550
+				Found deallocated memory at	ptr = 0000000000956670
+				Found deallocated memory at	ptr = 0000000000956670
+				Found deallocated memory at	ptr = 0000000000956670
+				Found deallocated memory at	ptr = 0000000000956670
+				Found deallocated memory at	ptr = 0000000000956670
+				Found deallocated memory at	ptr = 0000000000956730
+				Found deallocated memory at	ptr = 0000000000956670
+				Found deallocated memory at	ptr = 0000000000956670
+				Found deallocated memory at	ptr = 0000000000956670
+				Found deallocated memory at	ptr = 0000000000956520
+				Found deallocated memory at	ptr = 0000000000956700
+				Found deallocated memory at	ptr = 0000000000956D80
+				Found deallocated memory at	ptr = 0000000000956640
+				Found deallocated memory at	ptr = 0000000000956D40
+
+==================================================
+
+Remaining allocations:
+		Ptr = 0000000000955EB0,	size = 480,	isAllocated = 1 from file LogSystem/src/LogSystem.cpp : 21
+		Ptr = 0000000000956E00,	size = 480,	isAllocated = 1 from file LogSystem/src/LogSystem.cpp : 21
+		Ptr = 00000000009572B0,	size = 480,	isAllocated = 1 from file LogSystem/src/LogSystem.cpp : 21
+Number of remaining allocations = 3
+
+==================================================
+				Found deallocated memory at	ptr = 00000000009566A0
+				Found deallocated memory at	ptr = 0000000000956D00
+				Found deallocated memory at	ptr = 00000000009564F0
+				Found deallocated memory at	ptr = 0000000000956CC0
+				Found deallocated memory at	ptr = 00000000009566D0
+				Found deallocated memory at	ptr = 0000000000956C80
+				Found deallocated memory at	ptr = 0000000000956610
+				Found deallocated memory at	ptr = 0000000000956430
+				Found deallocated memory at	ptr = 0000000000951B50
+				Found deallocated memory at	ptr = 0000000000951BD0
+				Found deallocated memory at	ptr = 0000000000956400
+				Found deallocated memory at	ptr = 0000000000957290
+				Found deallocated memory at	ptr = 0000000000957740
+				Found deallocated memory at	ptr = 0000000000957760
+				Found deallocated memory at	ptr = 0000000000951AF0
+				Found deallocated memory at	ptr = 0000000000951AC0
+				Found deallocated memory at	ptr = 0000000000951A90
+				Found deallocated memory at	ptr = 00000000009515C0
+				Found deallocated memory at	ptr = 0000000000951590
+				Found deallocated memory at	ptr = 00000000009514E0
+				Found deallocated memory at	ptr = 00000000009514B0
