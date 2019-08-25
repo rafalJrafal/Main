@@ -1,4 +1,6 @@
 #include <iostream>
+#include <csetjmp>
+#include <memory>
 
 #include "SystemCalls/inc/Memory.h"
 
@@ -11,20 +13,31 @@
 #include "ParameterFile/inc/ParameterFileDataType.h"
 #include "Operator/inc/ClassX.h"
 #include "Operator/inc/Temp.h"
+#include "Test/inc/Except.h"
+#include "Test/inc/Aptr.h"
 
-
+jmp_buf jumpBuffer;
+int jmp_cnt = 0;
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
 int main(int argc, char** argv) {
 	{
 	//memoryMap.setPrintOtherDeallocations(false);
+
+	
+	setjmp(jumpBuffer);
+	
+	
+	
 	int * xxczvd = new int;
 	delete xxczvd;
 	
 	int * asd = new int [300];
 	delete [] asd;
 	
+	
+	std::auto_ptr<Aptr> autp_p(new Aptr());
 	
 	LogSystem::LogSystem * l = LogSystem::LogSystem::instance();
 	l->log("aaa");
@@ -34,6 +47,8 @@ int main(int argc, char** argv) {
 	
 	int x = p.getVal<int>("exampleIntValue");
 	printf("----> %d <----\n", x);
+	
+	autp_p->go();
 	
 	OperatorTest::ClassX a, b, c, d, e, f, g, h;
 	
@@ -56,11 +71,19 @@ int main(int argc, char** argv) {
 	OperatorTest::Temp<int, 3> xtmplate(2);
 	OperatorTest::Temp<char> xtmplate2(2);
     xtmplate[4];
+	
+	if (jmp_cnt < 4) longjmp(jumpBuffer, jmp_cnt++);    
     
-    
+	Except ex;
+	ex.run();
+	
+	
 	}
    	static MemoryMap & memoryMap = MemoryMap::instance();
 	memoryMap.printRemainingAllocations();
+
+
+
 
 	return 0;
 }

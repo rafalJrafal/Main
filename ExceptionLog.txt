@@ -1,0 +1,3 @@
+2019-08-25.14:20:29	DEFAULT			System logger started on file ExceptionLog.txt
+2019-08-25.14:20:29	DEFAULT			Constructor BaseClass this - 00000000007DFCF0
+2019-08-25.14:20:29	DEFAULT			catch (InternalExceptionChild & c) InternalExceptionChild
