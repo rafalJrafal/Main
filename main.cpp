@@ -10,6 +10,7 @@
 #include "ParameterFile/inc/ParameterFile.h"
 #include "ParameterFile/inc/ParameterFileDataType.h"
 #include "Operator/inc/ClassX.h"
+#include "Operator/inc/Temp.h"
 
 
 
@@ -29,7 +30,7 @@ int main(int argc, char** argv) {
 	l->log("aaa");
 	
 	Parameter::Parameter p("param.txt");
-	//p.readParameters();
+	p.readParameters();
 	
 	int x = p.getVal<int>("exampleIntValue");
 	printf("----> %d <----\n", x);
@@ -49,10 +50,17 @@ int main(int argc, char** argv) {
 	a = 3;
 	b = a;
 	c = a + b;
-    }
+
+	int in;
+
+	OperatorTest::Temp<int, 3> xtmplate(2);
+	OperatorTest::Temp<char> xtmplate2(2);
+    xtmplate[4];
+    
+    
+	}
    	static MemoryMap & memoryMap = MemoryMap::instance();
 	memoryMap.printRemainingAllocations();
-
 
 	return 0;
 }
