@@ -10,10 +10,15 @@ void newTerminate();
 
 class Except : public BaseClass {
 	public:
-		Except() : BaseClass("ExceptionLog.txt") {
+		Except() try : BaseClass("ExceptionLog.txt")  {
+			//throw 3333;
+		}
+		catch(...) {
+			log->log("caught");
+			throw "ala ma kota";
 		}
 		void run();
-		void throwBase() {
+		void throwBase() throw(ExceptionBase) {
 			throw ExceptionBase();
 		}
 		void throwChild() {

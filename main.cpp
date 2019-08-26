@@ -74,8 +74,15 @@ int main(int argc, char** argv) {
 	
 	if (jmp_cnt < 4) longjmp(jumpBuffer, jmp_cnt++);    
     
-	Except ex;
-	ex.run();
+    Except * ex = 0;
+	try{
+		ex = new Except();
+	}
+	catch (const char * t) {
+		printf("msg = %s, ptr = %p", t, ex);
+	}
+	
+	ex->run();
 	
 	
 	}
