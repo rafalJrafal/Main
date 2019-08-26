@@ -1,26 +1,26 @@
-2019-08-26.21:03:37	DEFAULT			System logger started on file TemplateLog.txt
-2019-08-26.21:03:37	DEFAULT			Constructor BaseClass this - 00000000007DF690
-2019-08-26.21:03:37	DEFAULT			Start: val = 3
-2019-08-26.21:03:37	DEFAULT			Constructor BaseClass this - 00000000007DF9C0
-2019-08-26.21:03:37	DEFAULT			Start: val = 0
-2019-08-26.21:03:37	DEFAULT			Operator [] index 4
-2019-08-26.21:03:37	DEFAULT			Constructor BaseClass this - 00000000007DF690
-2019-08-26.21:03:37	DEFAULT			Start: val = 3
-2019-08-26.21:03:37	DEFAULT			Constructor BaseClass this - 00000000007DF9C0
-2019-08-26.21:03:37	DEFAULT			Start: val = 0
-2019-08-26.21:03:37	DEFAULT			Operator [] index 4
-2019-08-26.21:03:37	DEFAULT			Constructor BaseClass this - 00000000007DF690
-2019-08-26.21:03:37	DEFAULT			Start: val = 3
-2019-08-26.21:03:37	DEFAULT			Constructor BaseClass this - 00000000007DF9C0
-2019-08-26.21:03:37	DEFAULT			Start: val = 0
-2019-08-26.21:03:37	DEFAULT			Operator [] index 4
-2019-08-26.21:03:37	DEFAULT			Constructor BaseClass this - 00000000007DF690
-2019-08-26.21:03:37	DEFAULT			Start: val = 3
-2019-08-26.21:03:37	DEFAULT			Constructor BaseClass this - 00000000007DF9C0
-2019-08-26.21:03:37	DEFAULT			Start: val = 0
-2019-08-26.21:03:37	DEFAULT			Operator [] index 4
-2019-08-26.21:03:38	DEFAULT			Constructor BaseClass this - 00000000007DF690
-2019-08-26.21:03:38	DEFAULT			Start: val = 3
-2019-08-26.21:03:38	DEFAULT			Constructor BaseClass this - 00000000007DF9C0
-2019-08-26.21:03:38	DEFAULT			Start: val = 0
-2019-08-26.21:03:38	DEFAULT			Operator [] index 4
+2019-08-26.21:32:33	DEFAULT			System logger started on file TemplateLog.txt
+2019-08-26.21:32:33	DEFAULT			Constructor BaseClass this - 00000000007DF690
+2019-08-26.21:32:33	DEFAULT			Start: val = 3
+2019-08-26.21:32:33	DEFAULT			Constructor BaseClass this - 00000000007DF9C0
+2019-08-26.21:32:33	DEFAULT			Start: val = 0
+2019-08-26.21:32:33	DEFAULT			Operator [] index 4
+2019-08-26.21:32:33	DEFAULT			Constructor BaseClass this - 00000000007DF690
+2019-08-26.21:32:33	DEFAULT			Start: val = 3
+2019-08-26.21:32:33	DEFAULT			Constructor BaseClass this - 00000000007DF9C0
+2019-08-26.21:32:33	DEFAULT			Start: val = 0
+2019-08-26.21:32:33	DEFAULT			Operator [] index 4
+2019-08-26.21:32:33	DEFAULT			Constructor BaseClass this - 00000000007DF690
+2019-08-26.21:32:33	DEFAULT			Start: val = 3
+2019-08-26.21:32:33	DEFAULT			Constructor BaseClass this - 00000000007DF9C0
+2019-08-26.21:32:33	DEFAULT			Start: val = 0
+2019-08-26.21:32:33	DEFAULT			Operator [] index 4
+2019-08-26.21:32:33	DEFAULT			Constructor BaseClass this - 00000000007DF690
+2019-08-26.21:32:33	DEFAULT			Start: val = 3
+2019-08-26.21:32:33	DEFAULT			Constructor BaseClass this - 00000000007DF9C0
+2019-08-26.21:32:33	DEFAULT			Start: val = 0
+2019-08-26.21:32:33	DEFAULT			Operator [] index 4
+2019-08-26.21:32:33	DEFAULT			Constructor BaseClass this - 00000000007DF690
+2019-08-26.21:32:33	DEFAULT			Start: val = 3
+2019-08-26.21:32:33	DEFAULT			Constructor BaseClass this - 00000000007DF9C0
+2019-08-26.21:32:33	DEFAULT			Start: val = 0
+2019-08-26.21:32:33	DEFAULT			Operator [] index 4
